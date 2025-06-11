@@ -1,0 +1,64 @@
+{
+  "documents": {
+    "psyn-eng_item001": {
+      "document_metadata": {
+        "language_family": "eng",
+        "language_variant": "usa",
+        "title": "Examining the mental health symptoms of neurodivergent individuals across demographic and identity factors: a quantitative analysis",
+        "authors": [
+          {
+            "name": "Elizabeth Kroll",
+            "affiliation": "Charlie Health, Inc., Bozeman, MT, United States"
+          },
+          {
+            "name": "Megan Lederman",
+            "affiliation": "Charlie Health, Inc., Bozeman, MT, United States"
+          },
+          {
+            "name": "Jonathan Kohlmeier",
+            "affiliation": "Charlie Health, Inc., Bozeman, MT, United States"
+          },
+          {
+            "name": "Jaime Ballard",
+            "affiliation": "The Center for Applied Research and Educational Improvement, University of Minnesota, Saint Paul, MN, United States"
+          },
+          {
+            "name": "Izabella Zant",
+            "affiliation": "Charlie Health, Inc., Bozeman, MT, United States"
+          },
+          {
+            "name": "Caroline Fenkel",
+            "affiliation": "Charlie Health, Inc., Bozeman, MT, United States"
+          }
+        ],
+        "publisher": "Frontiers in Psychology",
+        "publication_year": "2025",
+        "domain": "psychology_neurodivergence",
+        "text_type": "Original research",
+        "purpose": "To analyze how neurodivergent identities interact with other demographic and identity factors to influence mental health symptoms and treatment outcomes.",
+        "point_of_view": "Empirical and identity-affirming perspective focused on intersectionality and inclusivity in mental health treatment.",
+        "audience": "Mental health professionals, clinicians, researchers, and policy makers interested in neurodiversity and intersectionality.",
+        "reach": "International, with a focus on U.S. virtual mental health treatment populations.",
+        "topics": [
+          "Neurodivergence and mental health",
+          "Intersectionality in clinical outcomes",
+          "Quantitative analysis of identity factors",
+          "Inclusive mental health treatment models"
+        ],
+        "summary": "This study explores how neurodivergent identities interact with race, gender, and sexual orientation to impact mental health symptoms like depression and anxiety. Using data from over 14,000 clients in a virtual mental health program, the study found significant interaction effects—particularly with gender and sexuality—but not with race. It highlights the importance of identity-affirming care to improve treatment equity and outcomes.",
+        "suggested_citation": "Kroll E, Lederman M, Kohlmeier J, Ballard J, Zant I, Fenkel C (2025). Examining the mental health symptoms of neurodivergent individuals across demographic and identity factors: a quantitative analysis. Front. Psychol. 16:1499390. doi:10.3389/fpsyg.2025.1499390"
+      },
+      "processing_metadata": {
+        "submission_file_name": "Examining the mental health symptoms of neurodivergent individuals across demographic and identity factors a quantitative analysis.pdf",
+        "creation_date": "2025-03-19",
+        "word_count": 8725,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "psyn/eng/submissions/Examining the mental health symptoms of neurodivergent individuals across demographic and identity factors a quantitative analysis.pdf",
+          "processed": "psyn/eng/processed/psyn-eng_item001.json"
+        },
+        "processing_notes": "Data collected from 14,219 individuals in a virtual outpatient program. Relevant for intersectionality and neurodivergence research corpus."
+      }
+    }
+  }
+}

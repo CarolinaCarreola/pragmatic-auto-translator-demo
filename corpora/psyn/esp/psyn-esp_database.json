@@ -1,0 +1,47 @@
+{
+  "documents": {
+    "psyn-esp_item001": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Trastorno  por  déficit  de  atención  con hiperactividad (TDAH) en niños y adolescentes. Una revisión clínica",
+        "authors": [
+          {
+            "name": "Fiorella Rusca-Jordán",
+            "affiliation": "Centro Médico Arequipa. Arequipa, Perú; Clínica Delgado AUNA. Lima, Perú"
+          },
+          {
+            "name": "Carla Cortez-Vergara",
+            "affiliation": "Clínica Anglo Americana. Lima, Perú; Facultad de Medicina Alberto Hurtado, Universidad Peruana Cayetano Heredia. Lima, Perú"
+          }
+        ],
+        "publisher": "Revista de Neuro-Psiquiatría",
+        "publication_year": "2020",
+        "domain": "psychology_neurodivergence",
+        "text_type": "Review article",
+        "purpose": "Revisar de forma clínica y actualizada los aspectos etiológicos, diagnósticos y terapéuticos del TDAH en niños y adolescentes.",
+        "point_of_view": "Clínico-científico, con enfoque biomédico y perspectiva psiquiátrica infantojuvenil.",
+        "audience": "Profesionales de salud mental, médicos, psiquiatras, psicólogos, educadores y estudiantes del área de salud.",
+        "reach": "Nacional (Perú) con aplicabilidad regional en Latinoamérica de habla hispana.",
+        "topics": [
+          "TDAH en niños y adolescentes",
+          "Diagnóstico clínico y comorbilidades",
+          "Tratamientos farmacológicos y conductuales"
+        ],
+        "summary": "El artículo aborda el trastorno por déficit de atención con hiperactividad (TDAH) como una condición del neurodesarrollo de origen multifactorial. Revisa su fisiopatología, diagnóstico clínico y enfoque terapéutico individualizado que incluye intervenciones farmacológicas, psicológicas y psicoeducativas. Se destaca la necesidad de una evaluación integral y un tratamiento ajustado a cada caso.",
+        "suggested_citation": "Rusca-Jordán F, Cortez-Vergara C. Trastorno por déficit de atención con hiperactividad (TDAH) en niños y adolescentes. Una revisión clínica. Rev Neuropsiquiatr. 2020;83(3):148-156. doi:10.20453/rnp.v83i3.3794"
+      },
+      "processing_metadata": {
+        "submission_file_name": "Jordan_TDAHEnNiñosYAdolescentes_2020.pdf",
+        "creation_date": "2020-07-27",
+        "word_count": 7110,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "psyn/esp/submissions/Jordan_TDAHEnNiñosYAdolescentes_2020.pdf",
+          "processed": "psyn/esp/processed/psyn-esp_item001.json"
+        },
+        "processing_notes": "The Anexos contain QR codes to additional documents that may be useful to include in the corpus. The references section would be useful to review for more corpus items as well."
+      }
+    }
+  }
+}
