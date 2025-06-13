@@ -1,17 +1,17 @@
-# Pragmatic Auto-Translator
+# Neurodivergent Auto-Translator
 
 A corpus-informed, whole-document machine translation research project that challenges traditional sentence-by-sentence translation approaches.
 
 ## 🎯 Project Overview
 
-The Pragmatic Auto-Translator investigates potential improvements to machine translation through two key innovations:
+The Neurodivergent Auto-Translator investigates potential improvements to machine translation through two key innovations:
 
 1. **Corpus-informed translation** using domain-specific monolingual corpora in the translation/localization domain
 2. **Document-level translation** moving beyond traditional sentence-level segmentation  
 
 ### Current Implementation (Version 1)
 - **Languages**: Spanish ↔ English
-- **Domain**: Generative Artificial Intelligence
+- **Domain**: Psychology and Psychiatry
 - **Deployment**: Client-side on GitHub Pages
 - **Embedding Model**: JINA Embeddings v3
 - **Translation Engine**: DeepSeek API
@@ -35,15 +35,15 @@ pragmatic-auto-translator-demo/
 │   └── workflows/    
 │       └── deploy.yml              # GitHub Pages deployment
 ├── corpora/                        # Corpus organization
-│   ├── gai/                        # Generative AI domain
+│   ├── psyn/                        # Generative AI domain
 │   │   ├── eng/                    # English content
 │   │   │   ├── submissions/        # Source files
-│   │   │   ├── processed/          # JSON files (gai-eng_item001.json, etc.)
-│   │   │   └── gai-eng_database.json
+│   │   │   ├── processed/          # JSON files (psyn-eng_item001.json, etc.)
+│   │   │   └── psyn-eng_database.json
 │   │   └── esp/                    # Spanish content  
 │   │       ├── submissions/        # Source files        
-│   │       ├── processed/          # JSON files (gai-esp_item001.json, etc.)
-│   │       └── gai-esp_database.json
+│   │       ├── processed/          # JSON files (psyn-esp_item001.json, etc.)
+│   │       └── psyn-esp_database.json
 ├── frontend/                       # Auto-Translator website
 │   ├── css/                        # Website styles
 │   ├── js/                         # JavaScript modules
@@ -54,10 +54,10 @@ pragmatic-auto-translator-demo/
 │   ├── create_vectors_batch.ipynb  # Vectorization script (Google Colab)
 │   └── config.py                   # Configuration settings
 ├── vectors/                        # Generated vector files
-│   └── gai/                        # Vectors for GAI domain
-│       ├── gai-document-vectors.json   # Document-level vectors
-│       ├── gai-section-vectors.json    # Section-level vectors
-│       └── gai-paragraph-vectors.json  # Paragraph-level vectors
+│   └── psyn/                        # Vectors for PSYN domain
+│       ├── psyn-document-vectors.json   # Document-level vectors
+│       ├── psyn-section-vectors.json    # Section-level vectors
+│       └── psyn-paragraph-vectors.json  # Paragraph-level vectors
 ├── visualizations/                 # Vector mapping visualizations
 ├── index.html                      # Main translator interface
 └── README.md                       # This file
@@ -85,7 +85,7 @@ cd pragmatic-auto-translator-demo
 ```
 
 #### 2. Build Your Corpus
-Follow the examples in `corpora/gai/` to create your domain-specific corpus:
+Follow the examples in `corpora/psyn/` to create your domain-specific corpus:
 - Add source documents to `submissions/` folders
 - Convert to JSON format using the established schema
 - Place processed JSON files in `processed/` folders
