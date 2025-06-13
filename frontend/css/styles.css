@@ -20,6 +20,8 @@ button {
 
 :root {
     --primary-yellow: #ece6b0;
+    --primary-blue: #451ff0;
+    --primary-pink: #ff00b3;
     --primary-green: #149911;
     --primary-purple: #320d6d;
     --gray-100: #f3f4f6;
@@ -172,7 +174,7 @@ select option {
 
 .section-card {
     margin-top: 2rem;
-    background-color: rgb(255, 220, 124);
+    background-color: rgb(245, 213, 124);
     border-radius: 0.5rem;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     padding: 2rem;
@@ -478,7 +480,7 @@ select option {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: var(--primary-blue);
+    background-color: var(--primary-purple);
     color: white;
     text-decoration: none;
     border-radius: 0.5rem;
@@ -487,15 +489,22 @@ select option {
 }
 
 .contact-link:hover {
-    background-color: #1d4ed8;
+    background-color: #da5926;
 }
 
-.contact-link.github {
-    background-color: var(--gray-800);
+.contact-link.linkedin {
+    background-color: rgb(245, 213, 124);;
+}
+
+.contact-link.instagram {
+    background-color: rgb(245, 213, 124);;
 }
 
 .contact-link.github:hover {
-    background-color: var(--gray-700);
+    background-color: rgb(245, 213, 124);;
+}
+.contact-link.github {
+    background-color: rgb(245, 213, 124);;
 }
 
 .project-summary-conclusion {
@@ -503,6 +512,11 @@ select option {
     padding-bottom: 1rem;
     margin: 0 0 0 0;
     font-size: 1rem;
+}
+.contact-link .icon {
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
 }
 
 /* =============================================================================
